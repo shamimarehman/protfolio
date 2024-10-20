@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height:500px;
+    width:100%;
+    background-color:#FFFAF0;
+  }
+ .vertical-text{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-family: Arial, Helvetica, sans-serif;
+  margin:25px 0 15px 0;
+  font-size:64px;
+  font-weight:600;
+  color:#bbb;
+ padding:auto 0px;
+  
+}
+
+
+  .r{
+    color:rgb(243, 131, 11);
+  }
+  
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap:15px;
+    font-size: 15px;
+    padding-right: 50px;   
+}
+.mary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.p{
+    font-size: 13px;
+}
+.image{
+    background-image:url("D:/PROJECT/image/mary.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+   translate: 16px -32px;
+}
+.about-sec{
+      background-color:#FFFAF0;
+      height:500px;
+      padding: 80px 100px;
+      margin-top: 70px;
+    }
+    .text-center{
+        padding-top:63px;
+    }
+.about-sec p{
+    font-size: 12px;
+}
+
+.p2{
+    font-size:12px;
+    text-align: center;
+}
+.card-text{
+    font-size: 14px;
+    padding: 20px 2px;
+}
+.row{
+    font-size: 10px;
+}
+.footer-bg{
+    background-color: #FFFAF0;
+    padding: 15px 25px;
+}
